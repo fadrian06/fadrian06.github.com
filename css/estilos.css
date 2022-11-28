@@ -1,0 +1,35 @@
+header {
+	min-height: 200px;
+	background: url('../imgs/header.png') no-repeat center / contain;
+}
+
+@media (max-width: 900px) {
+	header {
+		--primario: #25064d;
+		background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(var(--primario)), color-stop(var(--primario)), to(var(--primario)));
+		background: -webkit-linear-gradient(top, black, var(--primario), var(--primario), var(--primario));
+		background: -moz-linear-gradient(top, black, var(--primario), var(--primario), var(--primario));
+		background: -o-linear-gradient(top, black, var(--primario), var(--primario), var(--primario));
+		background: linear-gradient(to bottom, black, var(--primario), var(--primario), var(--primario));
+	}
+}
+
+img {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	max-height: 95%;
+	padding: 10px;
+	border: thick solid rgb(0, 66, 132);
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+	background: white;
+}
+
+iframe {
+	height: 300px;
+}
+
+iframe.pdf {
+	height: 600px
+}
