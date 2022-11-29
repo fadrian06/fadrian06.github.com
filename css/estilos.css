@@ -16,13 +16,13 @@ header {
 
 img {
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	max-height: 95%;
 	padding: 10px;
 	border: thick solid rgb(0, 66, 132);
 	-webkit-border-radius: 25px;
-	        border-radius: 25px;
+	border-radius: 25px;
 	background: white;
 }
 
@@ -32,4 +32,14 @@ iframe {
 
 iframe.pdf {
 	height: 600px
+}
+
+.quote span {
+	font-size: 100px;
+	line-height: .6em;
+	opacity: .2
+}
+
+.quote p {
+	margin-top: -40px
 }
